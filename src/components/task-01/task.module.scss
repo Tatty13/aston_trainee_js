@@ -21,7 +21,7 @@
 .codeBlock {
   code {
     background: rgb(var(--card-rgb) / 0.09);
-    border-radius: 1rem;
+    border-radius: var(--border-radius);
 
     &:not(code:last-of-type) {
       margin-bottom: 1rem;
@@ -35,7 +35,7 @@
   flex-direction: column;
   gap: 1rem;
   background-color: rgb(var(--brand-rgb));
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   color: rgb(var(--foreground-rgb) / 0.95);
   line-height: 1.4;
 
