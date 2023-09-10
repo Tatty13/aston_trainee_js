@@ -11,10 +11,13 @@ export default function Homework({ params: { homework } }: HomeworkProps) {
   const targetId = homework.slice(9);
   const data = homeworkData.find(({ id }) => id === targetId);
 
+  const Task = data?.component || null;
+
   return (
     <>
       <h1 className={styles.title}>Задание {targetId}</h1>
       <p className={styles.subtitle}>{data?.desc}</p>
+      {Task && <Task />}
     </>
   );
 }
