@@ -1,11 +1,11 @@
+'use client';
+
 import Link from 'next/link';
+
+import { withJSHighlight } from '@/HOC';
 import styles from './homework.module.scss';
 
-export default function HomeworkLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+function HomeworkLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className='container'>
       {children}
@@ -20,3 +20,7 @@ export default function HomeworkLayout({
     </div>
   );
 }
+
+const HomeworkLayoutWithJSHighlight = withJSHighlight(HomeworkLayout);
+
+export default HomeworkLayoutWithJSHighlight;
