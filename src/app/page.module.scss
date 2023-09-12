@@ -2,81 +2,24 @@
   margin-bottom: 6rem;
   font-size: 2.5rem;
   font-weight: 500;
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+  text-align: center;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  justify-content: center;
   list-style: none;
-}
-
-.card {
-  padding: 2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0.05);
-  border: 1px solid rgba(var(--card-border-rgb), 0.15);
-  transition: background 200ms, border 200ms;
-
-  a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem 1.875rem;
-  }
-
-  h2 {
-    font-size: 1.75rem;
-    font-weight: 600;
-  }
-
-  span {
-    font-size: 2rem;
-    transition: transform 200ms;
-  }
-
-  p {
-    width: 100%;
-    color: rgba(var(--foreground-rgb), 0.8);
-  }
-}
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
-    border-color: rgba(var(--card-border-rgb), 0.2);
-
-    span {
-      transform: translateX(4px);
-    }
-  }
-}
-
-@media (prefers-reduced-motion) {
-  .card:hover span {
-    transform: none;
-  }
 }
 
 /* Mobile */
 @media (max-width: 700px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(260px, 320px);
     margin-bottom: 120px;
-    max-width: 320px;
     text-align: center;
-  }
-
-  .card {
-    padding: 1rem 2.5rem;
   }
 }
 
