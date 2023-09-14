@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import style from './task.module.scss';
+import style from '../tasks.module.scss';
 
 export const Task1: FC = () => {
   return (
