@@ -126,27 +126,45 @@ const makeCounter4 = function innerMakeCounter() {
         <pre className={style.codeBlock}>
           <code className='js'>
             {`
-//TODO
+const deepEqual = (obj1, obj2) => {
+  if (typeof obj1 !== typeof obj2) return false;
+  if (typeof obj1 !== 'object' || !obj1) return obj1 === obj2;
+
+  const obj1Keys = Object.keys(obj1);
+  const obj2Keys = Object.keys(obj2);
+
+  if (obj1Keys.length !== obj2Keys.length) return false;
+
+  for (let i = 0; i < obj1Keys.length; i++) {
+    const currentKey = obj1Keys[i];
+    const obj1Value = obj1[currentKey];
+    const obj2Value = obj2[currentKey];
+
+    if (obj1Value === obj2Value) continue;
+
+    return deepEqual(obj1Value, obj2Value);
+  }
+
+  return true;
+};
 
 const obj1 = {
   here: {
-    is: "on",
-    other: "3"
+    is: 'on',
+    other: '3',
   },
-  object: "Y"
-};
-  
-const obj2 = {
-  here: {
-    is: "on",
-    other: "2"
-  },
-  object: "Y"
+  object: 'Y',
 };
 
-const deepEqual = (obj1, obj2) => {
-  //TODO
+const obj2 = {
+  here: {
+    is: 'on',
+    other: '2',
+  },
+  object: 'Y',
 };
+
+console.log(deepEqual(obj1, obj2)); // false
 
 `}
           </code>
