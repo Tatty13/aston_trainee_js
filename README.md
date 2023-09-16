@@ -21,7 +21,7 @@ A learning repository for completing tasks as well as practicing writing code on
 2️⃣
 
 * [markdown](https://github.com/Tatty13/aston_trainee_js/blob/homeWork_02/task_02.md)
-* [preview](https://aston-trainee-o8mnesk8y-tatty13.vercel.app/homework_02)
+* [preview](https://aston-trainee-68dosf2gj-tatty13.vercel.app/homework_02)
 
 ---
 ---
