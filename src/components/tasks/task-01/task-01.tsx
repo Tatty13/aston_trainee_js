@@ -1,18 +1,7 @@
-'use client';
-
-import { FC, useEffect } from 'react';
-import hljs from 'highlight.js/lib/core';
-import 'highlight.js/styles/default.css';
-import javascript from 'highlight.js/lib/languages/javascript';
-
-import style from './task.module.scss';
+import { FC } from 'react';
+import style from '../tasks.module.scss';
 
 export const Task1: FC = () => {
-  useEffect(() => {
-    hljs.registerLanguage('javascript', javascript);
-    hljs.highlightAll();
-  }, []);
-
   return (
     <ol className={style.list}>
       <li>

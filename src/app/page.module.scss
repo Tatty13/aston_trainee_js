@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   justify-content: center;
+  gap: 2rem;
   list-style: none;
 }
 
