@@ -1,4 +1,4 @@
-import { Task1, Task2, Task3 } from '@/components';
+import { Task1, Task2, Task3, Task4 } from '@/components';
 
 export const homeworkData = [
   {
@@ -18,5 +18,11 @@ export const homeworkData = [
     title: '03',
     desc: 'Контекст и структуры данных',
     component: Task3,
+  },
+  {
+    id: '04',
+    title: '04',
+    desc: 'Сложность алгоритмов, ООП, SOLID, Прототипное и классовое наследование в JS',
+    component: Task4,
   },
 ];
