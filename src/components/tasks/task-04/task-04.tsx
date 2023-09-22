@@ -3,22 +3,6 @@ import style from '../tasks.module.scss';
 import Link from 'next/link';
 
 export const Task4: FC = () => {
-  // создание объекта person - конструктор
-  const person = new Object({
-    name: 'Vasya',
-    age: 23,
-  });
-
-  // создание объекта person2 - литеральный способ
-  const person2 = Object.create(person, {
-    name: {
-      value: 'Any',
-      enumerable: true,
-      writable: true,
-      configurable: true,
-    },
-    age: { value: 24, enumerable: true, writable: true, configurable: true },
-  });
   return (
     <ol className={style.list}>
       <li>
