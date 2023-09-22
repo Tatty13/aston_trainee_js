@@ -30,6 +30,12 @@ A learning repository for completing tasks as well as practicing writing code on
 * [preview](https://aston-trainee-m3y0x8mri-tatty13.vercel.app/homework_03)
 
 ---
+4️⃣
+
+* [markdown](https://github.com/Tatty13/aston_trainee_js/blob/homeWork_04/task_04.md)
+* [preview](https://aston-trainee-c8qwfgv8e-tatty13.vercel.app/homework_04)
+
+---
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
