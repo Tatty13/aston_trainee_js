@@ -29,7 +29,7 @@ export const Task3: FC = () => {
           this.item выводило - some value (Привязать через bind, call, apply)
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 function logger() {
  console.log('I output only external context: ' + this.item);
@@ -55,7 +55,7 @@ boundLogger();
           метода bind()
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 declare global {
   interface Function {
