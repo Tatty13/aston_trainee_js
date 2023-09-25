@@ -39,7 +39,7 @@ A learning repository for completing tasks as well as practicing writing code on
 5️⃣
 
 * [markdown](https://github.com/Tatty13/aston_trainee_js/blob/homeWork_05/task_05.md)
-* [preview](https://aston-trainee-1se7fxdqr-tatty13.vercel.app/homework_05)
+* [preview](https://aston-trainee-75xsxbvjv-tatty13.vercel.app/homework_05)
 
 ---
 ---
