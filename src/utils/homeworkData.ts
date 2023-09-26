@@ -28,7 +28,7 @@ export const homeworkData = [
   {
     id: '05',
     title: '05',
-    desc: 'Ассинхронность в JS (Promise && EventLoop)',
+    desc: 'Асинхронность в JS (Promise && EventLoop)',
     component: Task5,
   },
 ];
