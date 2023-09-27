@@ -7,7 +7,7 @@ export const Task2: FC = () => {
       <li>
         <h3>Создать объект counter всеми возможными способами:</h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 // Литеральный способ
 const counter1 = { count: 0 };
@@ -70,7 +70,7 @@ const counter11 = Object.defineProperties({}, {
       <li>
         <h3>Скопировать объект counter всеми возможными способами:</h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 const counter = {count: 1};
 
@@ -96,7 +96,7 @@ const deepCopy3 = _.cloneDeep(counter) // lodash + _.cloneDeepWith
           Создать функцию makeCounter всеми описанными и возможными способами:
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 // Function Declaration
 function makeCounter1() {
@@ -124,7 +124,7 @@ const makeCounter4 = function innerMakeCounter() {
       <li>
         <h3>Написать функцию глубокого сравнения двух объектов:</h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 const deepEqual = (obj1, obj2) => {
   if (typeof obj1 !== typeof obj2) return false;
@@ -176,7 +176,7 @@ console.log(deepEqual(obj1, obj2)); // false
           Развернуть строку в обратном направлении при помощи методов массивов:
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 const reverseStr1 = str => str.split('').reverse().join('');
 

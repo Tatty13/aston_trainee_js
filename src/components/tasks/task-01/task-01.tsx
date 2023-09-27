@@ -81,7 +81,7 @@ export const Task1: FC = () => {
               </li>
               <li>Сжатие заголовков осуществляется с помощью QPACK.</li>
               <li>
-                QUIC безопасен по умолчанию, что делает соединению всегда
+                QUIC безопасен по умолчанию, что делает соединение всегда
                 шифрованным, а также позволяет быстрее делать первоначальное
                 соединение (вместо трёхстороннего рукопожатия TCP и TLS -
                 трёхстороннее рукопожатие только QUIC).
@@ -148,7 +148,7 @@ export const Task1: FC = () => {
       <li>
         <h3>{`Написать по 2 примера создания примитивных значений (если есть несколько способов - использовать): string, number, boolean, null, undefined, symbol, bigInt`}</h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 const num1 = 1; // 1
 const num2 = Number(2); // 2
@@ -189,13 +189,13 @@ const symbol1 = Symbol('check') // Symbol('check')
       <li>
         <h3>Решить:</h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`const res = "B" + "a" + (1 - "hello"); console.log(res); //'BaNaN'`}
           </code>
-          <code className='js'>
+          <code>
             {`const res2 = (true && 3) + "d"; console.log(res2); //'3d'`}
           </code>
-          <code className='js'>
+          <code>
             {`const res3 = Boolean(true && 3) + "d"; console.log(res3); //'trued'`}
           </code>
         </pre>

@@ -286,7 +286,7 @@ export const Task4: FC = () => {
           метод logInfo чтоб он был доступен всем объектам.
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 // создание объекта person - литеральный способ
 const person = {
@@ -355,7 +355,7 @@ console.log(person2.logInfo()); // Name: Any. Age: 24.
           сделать класс наследник от класса Person.
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 // вариант 1
 class Person {
@@ -425,7 +425,7 @@ console.log(person3.name) // Petya
           которых равна total. Какая сложность у вашего алгоритма?
         </h3>
         <pre className={style.codeBlock}>
-          <code className='js'>
+          <code>
             {`
 // сложность алгоритма On^2
 const firstSum1 = (arr: number[], total: number) => {
