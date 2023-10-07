@@ -1,4 +1,4 @@
-import { Task1, Task2, Task3, Task4, Task5 } from '@/components';
+import { Task1, Task2, Task3, Task4, Task5, Task6 } from '@/components';
 
 export const homeworkData = [
   {
@@ -30,5 +30,11 @@ export const homeworkData = [
     title: '05',
     desc: 'Асинхронность в JS (Promise && EventLoop)',
     component: Task5,
+  },
+  {
+    id: '06',
+    title: '06',
+    desc: 'DOM / BOM',
+    component: Task6,
   },
 ];
